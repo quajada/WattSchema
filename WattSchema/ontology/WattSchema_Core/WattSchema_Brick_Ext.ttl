@@ -23,13 +23,13 @@ bsh:NumericValue a rdf:List ;
 
 wsch_brick:Hot_Aisle a owl:Class ;
     rdfs:subClassOf rec:HVACZone,
-        s223:PhysicalSpace ;
+        s223:DomainSpace ;
     rdfs:label "Hot Aisle" ;
     rdfs:comment "An aisle in a data center where hot air is circulated" .
 
 wsch_brick:Cold_Aisle a owl:Class ;
     rdfs:subClassOf rec:HVACZone,
-        s223:PhysicalSpace ;
+        s223:DomainSpace ;
     rdfs:label "Cold Aisle" ;
     rdfs:comment "An aisle in a data center where cold air is circulated" .
 
