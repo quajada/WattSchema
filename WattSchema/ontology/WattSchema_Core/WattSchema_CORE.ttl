@@ -55,7 +55,7 @@ wattsch:BatteryRoom a owl:Class ;
 wattsch:GeneratorYard a owl:Class ;
   rdfs:label "Generator Yard" ;
   rdfs:subClassOf rec:OutdoorSpace ;
-  rdfs:subClassOf s223:PhysicalSpace ;
+  rdfs:subClassOf s223:OutdoorPhysicalSpace ;
   rdfs:subClassOf brick:Outdoor_Area .
 
 wattsch:GeneratorRoom a owl:Class ;
